@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'sinatra-basic-auth'
+
 group :development do
   gem 'coffee-script'
   gem 'compass'
