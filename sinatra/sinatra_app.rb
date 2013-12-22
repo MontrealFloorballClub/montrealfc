@@ -5,8 +5,6 @@ require_relative 'member'
 set :public_dir, Proc.new { File.join(root, "_site") }
 set :views, Proc.new { File.join(File.dirname(__FILE__), "views") }
 
-puts Member.members.inspect
-
 # Specify your authorization logic
 authorize do |username, password|
   Member.authorize(username, password)

@@ -1,3 +1,5 @@
+require 'yaml'
+
 class Member
   attr_reader :username, :name, :password
 
