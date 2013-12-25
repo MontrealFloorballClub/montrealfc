@@ -18,7 +18,7 @@ protect do
 end
 
 before do
-  response.headers['Cache-Control'] = 'public, max-age=36000'
+  response.headers['Cache-Control'] = "public, max-age=#{max_age}"
 end
 
 # remove all trailing slashes
@@ -37,5 +37,11 @@ def serve
     File.read(file_name)
   else
     raise Sinatra::NotFound
+  end
+
+  private
+
+  def max_age
+    @_max_age ||= ENV['CACHE_MAX_AGE'] || 36000
   end
 end
