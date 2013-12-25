@@ -1,4 +1,6 @@
 # test
+task :default => ["assets:precompile"]
+
 namespace :assets do
   desc 'Precompile assets'
   task :precompile do
