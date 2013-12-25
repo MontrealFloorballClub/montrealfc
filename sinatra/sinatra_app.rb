@@ -4,6 +4,7 @@ require_relative 'member'
 
 set :public_dir, Proc.new { File.join(root, "_site") }
 set :views, Proc.new { File.join(File.dirname(__FILE__), "views") }
+set :max_age, Proc.new { ENV['CACHE_MAX_AGE'] || 36000 }
 
 # Specify your authorization logic
 authorize do |username, password|
@@ -18,7 +19,7 @@ protect do
 end
 
 before do
-  response.headers['Cache-Control'] = "public, max-age=#{max_age}"
+  response.headers['Cache-Control'] = "public, max-age=#{@max_age}"
 end
 
 # remove all trailing slashes
@@ -37,11 +38,5 @@ def serve
     File.read(file_name)
   else
     raise Sinatra::NotFound
-  end
-
-  private
-
-  def max_age
-    @_max_age ||= ENV['CACHE_MAX_AGE'] || 36000
   end
 end
