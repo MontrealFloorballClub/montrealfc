@@ -7,3 +7,4 @@ vendor/gems/*
 .components
 /vendor
 .env
+_site/

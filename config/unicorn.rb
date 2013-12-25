@@ -1,8 +1,8 @@
 # config/unicorn.rb
 
-worker_processes Integer(ENV['WEB_CONCURRENCY'] || 6)
-timeout Integer(ENV['WEB_TIMEOUT'] || 30)
-preload_app true
+worker_processes Integer(ENV['WEB_CONCURRENCY'] || 6) # amount of unicorn workers to spin up
+timeout Integer(ENV['WEB_TIMEOUT'] || 30) # restarts workers that hang after timeout
+preload_app true   # avoid regeneration of jekyll site for each fork
 
 before_fork do |server, worker|
   Signal.trap 'TERM' do
