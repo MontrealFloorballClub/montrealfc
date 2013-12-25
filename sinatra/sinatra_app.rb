@@ -4,7 +4,6 @@ require_relative 'member'
 
 set :public_dir, Proc.new { File.join(root, "_site") }
 set :views, Proc.new { File.join(File.dirname(__FILE__), "views") }
-set :max_age, Proc.new { ENV['CACHE_MAX_AGE'] || 36000 }
 
 # Specify your authorization logic
 authorize do |username, password|
@@ -19,7 +18,8 @@ protect do
 end
 
 before do
-  response.headers['Cache-Control'] = "public, max-age=#{@max_age}"
+  @_max_age ||= ENV['CACHE_MAX_AGE'] || 36000
+  response.headers['Cache-Control'] = "public, max-age=#{@_max_age}"
 end
 
 # remove all trailing slashes
