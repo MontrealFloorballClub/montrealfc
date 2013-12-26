@@ -11,5 +11,3 @@ This reposititory was meant as a starting point to be used with [github-heroku-j
 * run: ```foreman start```
 
 ## [Live Demo](http://sinatra-jekyll-hybrid.herokuapp.com/)
-
-Test23

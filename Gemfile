@@ -14,4 +14,3 @@ gem 'jekyll-assets'
 gem 'sinatra'
 gem 'unicorn'
 
-# test
