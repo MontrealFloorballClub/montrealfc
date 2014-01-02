@@ -1,14 +1,26 @@
+{% assign t = site.tags.translations[0] %}
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
-    <title>My Awesome Static Website</title>
+    <title>
+      {{t.[page.lang].global.montreal-floorball-club}}
+    </title>
 
     <!-- include css -->
     {% stylesheet app %}
 
 </head>
 <body>
+
+  <div class='span1'>
+    {% if page.lang == 'en' %}
+      <a class='btn-mini btn-lang' data-lang='fr' href='{{site.baseurl}}/fr{{page.url | remove: 'index.html'}}'>Français</a>
+    {% else %}
+      <a class='btn-mini btn-lang' data-lang='en' href='{{site.baseurl}}{{page.url | replace_first:'/fr', ''}}'>English</a>
+    {% endif %}
+  </div>
 
   <div id="main">
     {{ content }}

@@ -1,6 +1,14 @@
 source: jekyll
+baseurl: 
 permalink: /:categories/:title
+
 assets:
   compress:
     js:   uglifier
     css:  sass
+
+languages: &languages
+  - name: 'English'
+    value: 'en'
+  - name: 'Français'
+    value: 'fr'
