@@ -14,3 +14,6 @@ gem 'jekyll-assets'
 gem 'sinatra'
 gem 'unicorn'
 
+group :development do
+  gem 'foundation'
+end
