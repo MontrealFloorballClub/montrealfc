@@ -14,12 +14,22 @@
 </head>
 <body>
 
-  <div class='span1'>
-    {% if page.lang == 'en' %}
-      <a class='btn-mini btn-lang' data-lang='fr' href='{{site.baseurl}}/fr{{page.url | remove: 'index.html'}}'>Français</a>
-    {% else %}
-      <a class='btn-mini btn-lang' data-lang='en' href='{{site.baseurl}}{{page.url | replace_first:'/fr', ''}}'>English</a>
-    {% endif %}
+  <div class="row">
+    <div class="large-12 columns">
+    </div>
+
+    <div class="large-3 medium-3 columns">
+    </div>
+
+    <div class="large-1 medium-1 columns">
+      <p>
+        {% if page.lang == 'en' %}
+          <a class='small radius button' data-lang='fr' href='{{site.baseurl}}/fr{{page.url | remove: 'index.html'}}'>Français</a>
+        {% else %}
+          <a class='small radius button' data-lang='en' href='{{site.baseurl}}{{page.url | replace_first:'/fr', ''}}'>English</a>
+        {% endif %}
+      </p>
+    </div>
   </div>
 
   <div id="main">
@@ -28,4 +38,3 @@
 
 </body>
 </html>
-

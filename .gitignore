@@ -8,3 +8,4 @@ vendor/gems/*
 /vendor
 .env
 _site/*
+.bundle
