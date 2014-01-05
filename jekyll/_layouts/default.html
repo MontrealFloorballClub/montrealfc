@@ -11,29 +11,34 @@
     <!-- include css -->
     {% stylesheet app %}
 
+    <!-- include javascript -->
+    {% javascript app %}
+
+    {% comment %}
+    This doesn't work using the asset pipeline.
+    It should be in _assets/javascript and be required in app.js.coffee
+
+    See https://twitter.com/settings/widgets (user xlymian)
+    {% endcomment %}
+
+    {% include twitter-feed.js %}
 </head>
 <body>
 
-  <div class="row">
-    <div class="large-12 columns">
-    </div>
-
-    <div class="large-3 medium-3 columns">
-    </div>
-
-    <div class="large-1 medium-1 columns">
-      <p>
-        {% if page.lang == 'en' %}
-          <a class='small radius button' data-lang='fr' href='{{site.baseurl}}/fr{{page.url | remove: 'index.html'}}'>Français</a>
-        {% else %}
-          <a class='small radius button' data-lang='en' href='{{site.baseurl}}{{page.url | replace_first:'/fr', ''}}'>English</a>
-        {% endif %}
-      </p>
-    </div>
-  </div>
+  {% include language-toggle.html %}
 
   <div id="main">
-    {{ content }}
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="large-8 medium-8 columns">
+          {{ content }}
+        </div>
+
+        <div class="large-4 medium-4 columns">
+          {% include twitter-feed.html %}
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
