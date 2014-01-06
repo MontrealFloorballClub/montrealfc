@@ -2,6 +2,7 @@
 layout: default
 lang: en
 permalink: /
+published: true
 ---
 
 # What is Floorball
@@ -9,6 +10,8 @@ permalink: /
 Floorball is an exciting, fast-paced game that resembles ball hockey or hockey cosom, in Quebec. Themain difference is that the rules do not allow a lot of stick or body contact. While the game tendsto be less physical than hockey, floorball is a skill-oriented, entertaining style of play that promotes high scoring and is designed to limit injuries.
 
 Floorball is a game that is safe, low-cost, and easy to learn. Depending on the level of play, it can be an excellent cardiovascular workout or just good exercise. The rules of the game require and promote fair play among its participants. Floorball is a sport for everyone!
+
+Test using prose.io!
 
 # The Players
 
