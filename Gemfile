@@ -10,6 +10,7 @@ gem 'zurb-foundation'
 gem 'uglifier'
 gem 'jekyll'
 gem 'jekyll-assets'
+gem 'haml'
 
 gem 'sinatra'
 gem 'unicorn'

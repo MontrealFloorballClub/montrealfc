@@ -20,6 +20,8 @@ GEM
       multi_json (~> 1.0)
     fast-stemmer (1.0.2)
     fssm (0.2.10)
+    haml (4.0.5)
+      tilt
     highline (1.6.19)
     hike (1.2.2)
     jekyll (1.0.2)
@@ -81,6 +83,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   compass
+  haml
   jekyll
   jekyll-assets
   sinatra
