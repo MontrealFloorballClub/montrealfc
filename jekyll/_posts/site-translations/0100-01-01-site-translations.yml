@@ -3,11 +3,17 @@ published: true
 
 en:
   global:
-    montreal-floorball-club: 'Montréal Floorball Club'
+    montreal-floorball-club: "Montréal Floorball Club"
+    welcome: "Welcome"
+    what-is-floorball: "What is Floorball?"
+    the-equipment: "The Equipment"
 
 fr:
   global:
-    montreal-floorball-club: 'Club Floorball de Montréal'
+    montreal-floorball-club: "Club Floorball de Montréal"
+    welcome: "Accueil"
+    what-is-floorball: "Qu'est-ce que le floorball?"
+    the-equipment: "L'équipement"
 
 tag: translations
 ---
