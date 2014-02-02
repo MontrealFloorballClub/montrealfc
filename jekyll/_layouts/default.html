@@ -25,8 +25,12 @@
 </head>
 <body>
 
+    {% comment %}
   {% include masthead.html %}
   {% include language-toggle.html %}
+    {% endcomment %}
+
+  {% include top-bar.html %}
 
   <div id="main">
     <div class="row">
@@ -41,6 +45,8 @@
       </div>
     </div>
   </div>
+
+ <script> $(document).ready(function() { $(document).foundation(); }); </script>
 
 </body>
 </html>
