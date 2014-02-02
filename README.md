@@ -1,13 +1,9 @@
-# Jekyll/Sinatra hybrid app
+# Deployment
 
-App template using jekyll and sinatra that can be used for simple websites with some ajax components, e.g. a contact form.
+The site is auto-deployed whenever a new commit is made to the project. To see it, go to
+[here](http://montrealfc.herokuapp.com).
 
-This reposititory was meant as a starting point to be used with [github-heroku-jekyll-hook](https://github.com/dommmel/github-heroku-jekyll-hook) as described in the article "[Automatically build and deploy Jekyll sites to heroku](https://coderwall.com/p/st0hcq)".
+# Editing
 
-## how to
-
-* install gems: ```bundle install```
-* build: ```jekyll build```
-* run: ```foreman start```
-
-## [Live Demo](http://sinatra-jekyll-hybrid.herokuapp.com/)
+As usual, you can clone the project and modify locally. Or to make changes directly on Github, you can
+use the [Prose.io app](http://prose.io/#MontrealFloorballClub/montrealfc).
