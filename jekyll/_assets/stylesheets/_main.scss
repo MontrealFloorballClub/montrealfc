@@ -11,3 +11,13 @@ h1 {
 p {
   margin-bottom: 1em;
 }
+
+.transparent {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+#top-bar {
+  background-color: black;
+}
