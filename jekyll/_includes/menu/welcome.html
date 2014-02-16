@@ -1,3 +1,12 @@
+{% if page.lang == 'fr' %}
+  {% assign floorball = "/fr" %}
+  {% assign equipment = "/fr/equipment" %}
+{% else %}
+  {% assign floorball = "/" %}
+  {% assign equipment = "/equipment" %}
+{% endif %}
+
+
 <ul>
   <li class="has-dropdown">
     <a href="#">
@@ -6,13 +15,13 @@
 
     <ul class="dropdown">
       <li>
-        <a href="#">
+        <a href={{ floorball }}>
           {{t.[page.lang].global.what-is-floorball}}
         </a>
       </li>
 
       <li>
-        <a href="#">
+        <a href={{ equipment }}>
           {{t.[page.lang].global.the-equipment}}
         </a>
       </li>
