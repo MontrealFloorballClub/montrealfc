@@ -7,6 +7,11 @@ en:
     welcome: "Welcome"
     what-is-floorball: "What is Floorball?"
     the-equipment: "The Equipment"
+    venue: "Venue"
+    schedule: "Schedule"
+    teams: "Teams"
+    scores: "Scores"
+    stats: "Stats"
 
 fr:
   global:
@@ -14,6 +19,11 @@ fr:
     welcome: "Accueil"
     what-is-floorball: "Qu'est-ce que le floorball?"
     the-equipment: "L'équipement"
+    venue: "Lieu de joute"
+    schedule: "Calendrier"
+    teams: "Équipes"
+    scores: "Pointage"
+    stats: "Statistiques"
 
 tag: translations
 ---
