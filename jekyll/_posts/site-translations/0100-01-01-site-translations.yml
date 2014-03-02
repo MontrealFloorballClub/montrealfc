@@ -12,6 +12,8 @@ en:
     teams: "Teams"
     scores: "Scores"
     stats: "Stats"
+    minutes: "General Assemblee Minutes"
+    members: "Members"
 
 fr:
   global:
@@ -24,6 +26,8 @@ fr:
     teams: "Équipes"
     scores: "Pointage"
     stats: "Statistiques"
+    minutes: "Procès Verbaux des assemblées générales"
+    members: "Membres"
 
 tag: translations
 ---
