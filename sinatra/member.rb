@@ -28,7 +28,7 @@ class Member
   private
 
   def self.cmd
-    @_cmd || "/usr/bin/curl #{url}"
+    @_cmd ||= "/usr/bin/curl #{url}"
   end
 
   def self.url
