@@ -14,3 +14,4 @@ gem 'haml'
 
 gem 'sinatra'
 gem 'unicorn'
+gem 'foreman'
