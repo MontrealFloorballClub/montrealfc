@@ -1,0 +1,17 @@
+<div id="main">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="large-8 medium-8 columns">
+        {{ content }}
+      </div>
+
+      <div class="large-4 medium-4 columns">
+        {% include twitter-feed.html %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() { $(document).foundation(); });
+</script>
