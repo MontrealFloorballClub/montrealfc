@@ -14,6 +14,7 @@ en:
     stats: "Stats"
     minutes: "General Assemblee Minutes"
     members: "Members"
+    location: "Location"
 
 fr:
   global:
@@ -28,6 +29,7 @@ fr:
     stats: "Statistiques"
     minutes: "Procès Verbaux des assemblées générales"
     members: "Membres"
+    location: "Lieu"
 
 tag: translations
 ---

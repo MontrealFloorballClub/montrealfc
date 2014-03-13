@@ -4,6 +4,7 @@ lang: fr
 categories:
   - fr
 permalink: "fr/equipment"
+published: true
 title: L'Équipement
 ---
 
