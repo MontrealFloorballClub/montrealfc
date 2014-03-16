@@ -1,6 +1,7 @@
 source: jekyll
 baseurl: 
 permalink: /:categories/:title
+markdown: redcarpet
 
 assets:
   compress:

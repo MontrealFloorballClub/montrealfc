@@ -11,6 +11,7 @@ gem 'uglifier'
 gem 'jekyll'
 gem 'jekyll-assets'
 gem 'haml'
+gem 'redcarpet'
 
 gem 'sinatra'
 gem 'unicorn'

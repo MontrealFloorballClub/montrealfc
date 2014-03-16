@@ -1,9 +1,11 @@
 {% if page.lang == 'fr' %}
   {% assign floorball = "/fr" %}
   {% assign equipment = "/fr/equipment" %}
+  {% assign rules = "/fr/rules" %}
 {% else %}
   {% assign floorball = "/" %}
   {% assign equipment = "/equipment" %}
+  {% assign rules = "/rules" %}
 {% endif %}
 
 <ul>
@@ -24,6 +26,14 @@
           {{t.[page.lang].global.the-equipment}}
         </a>
       </li>
+
+      <li>
+        <a href="http://www.floorball.org/Liitetiedostot/Rules%20of%20the%20Game%20Edition%202010.pdf"
+           target="_window">
+          {{t.[page.lang].global.rules-of-the-game}}
+        </a>
+      </li>
+
     </ul>
   </li>
 </ul>

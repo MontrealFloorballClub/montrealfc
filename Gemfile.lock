@@ -51,6 +51,7 @@ GEM
     rack-protection (1.5.0)
       rack
     raindrops (0.10.0)
+    redcarpet (3.1.1)
     safe_yaml (0.7.1)
     sass (3.2.9)
     sinatra (1.4.1)
@@ -86,6 +87,7 @@ DEPENDENCIES
   haml
   jekyll
   jekyll-assets
+  redcarpet
   sinatra
   sinatra-basic-auth
   uglifier

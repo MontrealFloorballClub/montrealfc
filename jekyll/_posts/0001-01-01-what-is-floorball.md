@@ -13,12 +13,12 @@ stick or body contact. While the game tendsto be less physical than hockey,
 floorball is a skill-oriented, entertaining style of play that promotes high
 scoring and is designed to limit injuries.
 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/wuLlMzJps8I" frameborder="0" allowfullscreen></iframe>
+
 Floorball is a game that is safe, low-cost, and easy to learn. Depending on
 the level of play, it can be an excellent cardiovascular workout or just good
 exercise. The rules of the game require and promote fair play among its
 participants. Floorball is a sport for everyone!
-
-Test using prose.io!
 
 # The Players
 
