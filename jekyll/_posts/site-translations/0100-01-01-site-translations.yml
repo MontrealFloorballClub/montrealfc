@@ -16,6 +16,9 @@ en:
     minutes: "General Assemblee Minutes"
     members: "Members"
     location: "Location"
+    club: "Club"
+    meetings: "Meetings"
+    board: "Board"
 
 fr:
   global:
@@ -32,6 +35,9 @@ fr:
     minutes: "Procès Verbaux des assemblées générales"
     members: "Membres"
     location: "Lieu"
+    club: "Club"
+    meetings: "Réunions"
+    board: "Conseil"
 
 tag: translations
 ---
