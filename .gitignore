@@ -9,3 +9,4 @@ vendor/gems/*
 .env
 _site/*
 .bundle
+.direnv/

@@ -15,3 +15,5 @@ gem 'redcarpet'
 
 gem 'sinatra'
 gem 'unicorn'
+
+gem 'foreman'
