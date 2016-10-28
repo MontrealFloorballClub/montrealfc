@@ -5,6 +5,14 @@ permalink: /
 published: true
 ---
 
+# About the Club
+
+Club league games are held weekly at [CÉGEP Saint-Laurent](/location) on
+tuesday nights from 20h00 to 22h00. Ladies and new players are welcome!
+
+We also organize open scrimmage at [CÉGEP Bois-de-Boulogne](/bois-de-boulogne)
+every saturday from 13h30 to 15h30.
+
 # What is Floorball?
 
 Floorball is an exciting, fast-paced game that resembles ball hockey or hockey

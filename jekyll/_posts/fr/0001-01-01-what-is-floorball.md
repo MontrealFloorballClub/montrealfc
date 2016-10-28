@@ -7,6 +7,14 @@ permalink: "fr/"
 title: Qu'est-ce que le floorball?
 ---
 
+# Au sujet du club
+
+Le club organise une ligue mixte dont les parties se tiennent tous les mardis soir au
+[CÉGEP Saint-Laurent](/location) de 20h00 à 22h00. Les nouveaux joueur sont bienvenus!
+
+Aussi, nous organisons des matchs mixtes amicaux au [CÉGEP Bois-de-Boulogne](/bois-de-boulogne)
+tous les samedis de 13h30 à 15h30.
+
 # Qu'est-ce que le floorball?
 
 Le floorball est un sport passionnant au rythme rapide qui ressemble beaucoup au hockey cosom
