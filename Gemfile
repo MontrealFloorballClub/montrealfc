@@ -13,6 +13,10 @@ gem 'jekyll-assets'
 gem 'haml'
 gem 'redcarpet'
 
+group :development do
+  gem 'rake'
+end
+
 gem 'sinatra'
 gem 'unicorn'
 
